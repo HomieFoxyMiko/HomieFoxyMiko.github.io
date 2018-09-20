@@ -105,7 +105,13 @@ span{
     text-transform: uppercase;
     font-size: 14px;
     font-weight: bold;
+    transition: all 0.3s ease;
 }
+
+.menu li a:hover{
+    color: #000;
+}
+
 .menu li b{
     color: #000;
 }
@@ -147,6 +153,13 @@ span{
     background: #000;
     font-weight: lighter;
     width: 700px;
+    transition: all 0.9s ease;
+}
+
+.titles_first:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .titles h1{
