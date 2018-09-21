@@ -138,11 +138,25 @@ span{
 #first{
     background: #e9e9e9;
     float: left;
+    transition: all 0.3s ease;
 }
 #second{
     margin-left: 1700px;
     background: #000;
     float: right;
+    transition: all 0.3s ease;
+}
+
+#first:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+#second:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .titles_first{
@@ -188,6 +202,13 @@ span{
     margin-top: 360px;
     float: left;
     margin-left: 10px;
+    transition: all 0.3s ease;
+}
+
+.button_sl:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 #fr_sl{
@@ -231,7 +252,13 @@ span{
     text-transform: uppercase;
     font-size: 14px;
     font-weight: bold;
+    transition: all 0.3s ease;
 }
+
+.sub_menu li a:hover{
+    color: #000;
+}
+
 .sub_menu li b{
     color: #000;
 }
@@ -263,6 +290,12 @@ span{
     margin: 5px;
     padding: 0;
     vertical-align: top;
+    opacity: 0.6;
+    transition: all 0.3s ease;
+}
+
+.imgblock img:hover{
+    opacity: 1;
 }
 
 #lastimg{
@@ -333,6 +366,11 @@ span{
     text-align: center;
     text-decoration: none;
     color: #828282;
+    transition: all 0.3s ease;
+}
+
+.fa:hover{
+    color: #000;
 }
 
 footer{
