@@ -321,6 +321,20 @@ span{
     font-size: 13px;
     position: relative;
     top: -170px;
+    transition: all 0.3s ease;
+}
+
+.loadmorebutton:hover{
+    box-shadow:
+    1px 1px #222,
+    2px 2px #222,
+    3px 3px #222,
+    4px 4px #222,
+    5px 5px #222,
+    6px 6px #222,
+    7px 7px #222;
+  -webkit-transform: translateX(-7px);
+  transform: translateX(-7px);
 }
 
 #social{
