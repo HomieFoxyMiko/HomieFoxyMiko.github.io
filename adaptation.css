@@ -60,5 +60,7 @@
 		left: 50%;
 		margin-left: -90px;
     }
-    
+    #headerabout{
+        height: auto;
+    }
 }
