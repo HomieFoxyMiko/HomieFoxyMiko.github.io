@@ -1,8 +1,12 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    background: url(img/fon-main.jpg) no-repeat center top / cover;
     margin: 0;
     padding: 0;
+}
+
+.headerandsection{
+    background: url(img/fon-main.jpg) no-repeat center top / cover;
+    height: 100vh;
 }
 
 .clearfix:after{ 
@@ -28,7 +32,7 @@ header{
 
 .nav {
     margin: 15px 0;
-    margin-left: 39.1%;
+    margin-left: 36.3%;
 }
 .nav ul {
 	margin: 0;
@@ -103,7 +107,7 @@ span{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin-top: 15%;
+    margin-top: 12%;
   }
   .button__holder:after {
     content: "";
@@ -140,6 +144,28 @@ span{
   }
   .plus:hover {
     -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
+    transform: rotate(45deg);
     box-shadow: 0 0 1px 15px rgba(79, 144, 250, 0.4), 0 0 1px 30px rgba(79, 144, 250, 0.1), 0 0 1px 45px rgba(79, 144, 250, 0.1);
   }
+
+
+.scrolldown{
+    margin-top: 16%;
+    margin-left: 49%;
+    color: #fff;
+    animation-name: scroll;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes scroll{
+    0%   { opacity: 1; }
+    25%  { opacity: 1; }
+    50%  { opacity: 0; }
+    75% { opacity: 0; }
+    100% {opacity: 1;}
+}
+
+
+
