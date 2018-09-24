@@ -6,7 +6,7 @@ body{
 }
 
 .headerandsection{
-    background: url(img/fon-main.jpg) no-repeat center top / cover;
+    background: url(img/fon-main.jpg) no-repeat fixed center top / cover;
     height: 100vh;
 }
 
@@ -169,7 +169,7 @@ span{
 }
 
 #about{
-    padding-bottom: 75px;
+    margin-bottom: 75px;
 }
 
 .about_items{

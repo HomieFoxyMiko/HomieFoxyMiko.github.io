@@ -9,16 +9,18 @@
     <link rel="stylesheet" href="adaptation.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,800&amp;subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
     <title>Портфолию</title>
 </head>
 <body>
 <div class="headerandsection">
     <header>
         <div class="container">
-            <nav class="nav">
+            <nav class="nav" id="menu">
                 <ul>
-                    <li class="current"><a href="#">Обо мне</a></li>
-                    <li><a href="#">Портфолио</a></li>
+                    <li class="current"><a href="#about">Обо мне</a></li>
+                    <li><a href="#portfolio">Портфолио</a></li>
                     <li><a href="#">Контакты</a></li>
                 </ul>
             </nav>
@@ -36,12 +38,15 @@
                 </h2>
                 <p><i style="font-size:18px" class="fa">&#xf041;</i>  Minsk, Belarus</p>
             </div>
-            <a href="#">
+            <nav id="menu2">
+            <a href="#about">
             <img src="img/scrolldown.png" width="30px" height="30px" alt="ScrollDown" class="scrolldown">
-            </a>
+            </nav>
+        </a>
         </div>
     </section>
 </div>
+<div class="separator"></div>
 <section id="about">
     <div class="container">
         <div class="about_items">
@@ -50,11 +55,12 @@
                 <h2>Щеглов Олег</h2>
                 <h1><span>Верстальщик</span> / <span>Frontend</span> разработчик</h1>
                 <p><span>Основная специализация:</span> Верстка всех типов сайтов(интернет магазины, Landing-page и другое). Имея аналитический склад ума, пишу чистый, понятный и, при необходимости, комментируемый код, понятный программистам.</p>
-                <p><span>Используемые технологии:</span> HTML5, CSS3, Bootstrap.</p>
+                <p><span>Используемые технологии:</span> HTML5, CSS3, Bootstrap, JavaScript, jQuery.</p>
             </div>
         </div>
     </div>
 </section>
+<div class="separator"></div>
 <section id="portfolio">
     <div class="container">
         <div class="works">
