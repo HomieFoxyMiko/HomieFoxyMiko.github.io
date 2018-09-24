@@ -1,4 +1,5 @@
 body{
+    background: #f3f3f3;
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
@@ -166,6 +167,90 @@ span{
     75% { opacity: 0; }
     100% {opacity: 1;}
 }
+
+#about{
+    padding-bottom: 75px;
+}
+
+.about_items{
+    margin-top: 6%;
+    display: block;
+}
+
+.aboutbg{
+    width: 70%;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    position: relative;
+}
+
+.description{
+    background: #fff;
+    float: right;
+    width: 30%;
+    height: auto;
+    padding: 20px;
+    position: absolute;
+    top: 115%;
+    left: 50%;
+    z-index: 10;
+    font-size: 14px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.description h2{
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.description h1{
+    font-size: 20px;
+}
+
+#portfolio{
+    padding-top: 50px;
+    padding-bottom: 25%;
+    background: #fff;
+}
+
+.works h3{
+    text-align: center;
+    font-size: 50px;
+}
+
+.works_item{
+    margin: 0;
+    padding: 0;
+}
+
+.works_item img{
+    margin: 1%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    width: 48%;
+    display: block;
+    position: relative;
+    float: left;
+    transition: all 0.5s ease;
+}
+
+.block{
+    position: absolute;
+    left:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+}
+
+.works_item img:hover{
+    transform: scale(1.05);
+}
+
+
 
 
 
