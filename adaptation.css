@@ -19,8 +19,32 @@
 		margin-top: 11%;
 	}
 	.description{
-		top: 100%;
-		width: 45%;
+		margin-top: 2%;
+		position: relative;
+		float: right;
+		width: 40%;
+		font-size: 12px;
+		height: 237px;
+		text-align: center;
+		display: inline-block;
+		left: 0;
+	}
+	
+	.description h2{
+		font-size: 14px;
+	}
+	
+	.description h1{
+		font-size: 18px;
+	}
+	.aboutbg{
+		width: 55%;
+	}
+	#about{
+    	padding-bottom: 0;
+	}
+	.works_item img{
+		height: auto;
 	}
 }
 

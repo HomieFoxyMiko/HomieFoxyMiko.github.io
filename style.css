@@ -236,19 +236,30 @@ span{
     transition: all 0.5s ease;
 }
 
-.block{
-    position: absolute;
-    left:0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    display: none;
-}
-
 .works_item img:hover{
     transform: scale(1.05);
 }
 
+.footertitle, .socialmedia{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.socialmedia{
+    padding-bottom: 3%;
+}
+
+.socialmedia i{
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 16px;
+    transition: all 0.5s ease;
+}
+
+.socialmedia i:hover{
+    color: red;
+}
 
 
 
